@@ -1,7 +1,7 @@
-# React Markdown Blog
-*Source code for the video tutorial series "Building a Markdown Blog With React.*
+# Create React App With Netlify CMS
+*Source code for the video tutorial "Create React App and Netlify CMS: Adding Netlify CMS to an Existing React App.*
 <br>
-[Video Playlist at YouTube](https://www.youtube.com/playlist?list=PLASldBPN_pkBfRXOkBOaeCJYzCnISw5-Z)
+[Video at YouTube](https://youtu.be/CZ0JBAf3_r4)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -71,7 +71,7 @@ const getPosts = () => {
                 const metadataIndices = lines.reduce(getMetadataIndices, [])
                 const metadata = parseMetadata({lines, metadataIndices})
                 const content = parseContent({lines, metadataIndices})
-                const parsedDate = formatDate(metadata.date)
+                const parsedDate = metadata.date ? formatDate(metadata.date) : new Date()
                 const publishedDate = `${parsedDate["monthName"]} ${parsedDate["day"]}, ${parsedDate["year"]}`
                 const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`
                 const date = new Date(datestring)
